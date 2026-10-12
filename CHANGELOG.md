@@ -1,3 +1,8 @@
+## [1.2.7] - 2026-10-12
+
+- Require the compatible Training Matrix parent release for staff compliance reporting.
+- Align the declared compatibility target with the training suite.
+
 ## [v1.2.2] - 2025-12-23
 
 ### Security

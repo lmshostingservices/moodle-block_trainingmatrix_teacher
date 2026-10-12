@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'block_trainingmatrix_teacher';
-$plugin->version   = 2026011700;
-$plugin->requires  = 2022041900; // Moodle 4.0+
-$plugin->supported  = [400, 500];  // Moodle 4.0 to 5.x
+$plugin->version   = 2026101201;
+$plugin->requires  = 2024042200; // Moodle 4.4.
+$plugin->supported  = [404, 502];
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.2.6';
+$plugin->release   = '1.2.7';
 $plugin->dependencies = [
-    'local_trainingmatrix' => 2025121900,
+    'local_trainingmatrix' => 2026101201,
 ];
