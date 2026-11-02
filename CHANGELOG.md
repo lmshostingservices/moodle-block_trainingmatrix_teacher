@@ -1,3 +1,19 @@
+## [1.2.9] - 2026-11-02
+
+Tested on Moodle 4.5, 5.0, 5.1, 5.2 and 5.3.
+
+- Users without oversight permission saw a hard-coded "You do not have permission" message on their Dashboard; the block now stays hidden for them.
+- Teachers could not add the block to their own Dashboard (myaddinstance was only granted to course-level archetypes).
+- The overview now lists the first 25 staff (with a count and a link to the full dashboard) instead of loading everyone on every page view.
+- Removed ~220 lines of unreachable legacy rendering.
+- Requires Training Matrix 1.0.21; supported range 4.5–5.3.
+
+## [1.2.8] - 2026-10-12
+
+- Graduate the approved staff oversight design with real active staff, evidence counts, search and expandable details.
+- Retain system viewall authorisation and require separate Certificate Pro permissions for other users' PDFs.
+- Replace inferred compliance verdicts with explicitly labelled evidence counts; require Training Matrix 1.0.19.
+
 ## [1.2.7] - 2026-10-12
 
 - Require the compatible Training Matrix parent release for staff compliance reporting.
